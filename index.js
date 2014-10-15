@@ -13,14 +13,14 @@ util.inherits(WaveGenerator, Device);
 
 WaveGenerator.prototype.init = function(config) {
   config
-    .name('SineWave')
+    .name('CosineWave')
     .type('generator')
     .monitor('wave');
 
   var self = this;
   var counter = 0;
   setInterval(function() {
-    self.wave = Math.sin(degToRad(counter));
+    self.wave = Math.cos(degToRad(counter));
     counter += 15;
   }, 100);
 };

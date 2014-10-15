@@ -1,7 +1,7 @@
 {
-  "name": "zetta-sine-wave",
+  "name": "zetta-cosine-wave",
   "version": "0.2.0",
-  "description": "Mock Zetta device that generates a sine wave.",
+  "description": "Mock Zetta device that generates a cosine wave.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,12 +13,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zettajs/zetta-sine-wave-driver.git"
+    "url": "https://github.com/zettajs/zetta-cosine-wave-driver.git"
   },
   "bugs": {
-    "url": "https://github.com/zettajs/zetta-sine-wave-driver/issues"
+    "url": "https://github.com/zettajs/zetta-cosine-wave-driver/issues"
   },
-  "homepage": "https://github.com/zettajs/zetta-sine-wave-driver",
+  "homepage": "https://github.com/zettajs/zetta-cosine-wave-driver",
   "dependencies": {
     "zetta-device": "^0.5.0"
   }
