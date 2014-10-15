@@ -1,19 +1,19 @@
-# Zetta Sine Wave Generator
+# Zetta Cosine Wave Generator
 
 ## Install
 
 ```
-$> npm install zetta-sine-wave
+$> npm install zetta-cosine-wave
 ```
 
 ## Usage
 
 ```javascript
 var zetta = require('zetta');
-var SineWave = require('zetta-sine-wave');
+var CosineWave = require('zetta-cosine-wave');
 
 zetta()
-  .use(SineWave)
+  .use(CosineWave)
   .listen(1337)
 ```
 
